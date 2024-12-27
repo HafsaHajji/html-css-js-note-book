@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jummah Mubarak Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('https://images.unsplash.com/photo-1519125323398-675f0ddb6308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin: 0;
+      animation: fadeIn 2s ease-in-out;
+      font-family: 'Georgia', serif;
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin: 20px 0;
+      animation: slideIn 2s ease-in-out;
+    }
+
+    button {
+      background: #16a085;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      animation: popUp 2s ease-in-out;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background: #1abc9c;
+      transform: translateY(-5px);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes popUp {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Jummah Mubarak</h1>
+    <p>May your day be filled with blessings and peace.</p>
+    <button onclick="showMessage()">Send Blessings</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert('Jummah Mubarak! May Allah bless you and your family.');
+    }
+  </script>
+</body>
+</html>
