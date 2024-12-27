@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanadka Cusub 2024</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('https://images.unsplash.com/photo-1519985176271-adb1088fa94c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      animation: fadeIn 2s ease-in-out;
+      font-family: 'Georgia', serif;
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin: 20px 0;
+      animation: slideIn 2s ease-in-out;
+    }
+
+    #time {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Goodbye to the year and everything within it, welcome 2025!</h1>
+    <p>May the new year bring joy, peace, and blessings to you and your family.</p>
+    <div id="time">Loading current date and time...</div>
+  </div>
+
+  <script>
+    function updateTime() {
+      const now = new Date();
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+      const timeString = now.toLocaleDateString('en-US', options);
+      document.getElementById('time').textContent = timeString;
+    }
+
+    updateTime();
+    setInterval(updateTime, 1000);
+  </script>
+</body>
+</html>
