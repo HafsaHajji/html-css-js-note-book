@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Date Updater</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("somali\ girl.png"); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+            color: #fff;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .date-display {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .note {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .determination {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="date-display" id="dateDisplay"></div>
+        <div class="note">I will update this date daily.</div>
+        <div class="determination">I will not stop my efforts until I reach the level I desire, Insha Allah.</div>
+        <div class="developer-note">Always striving to contribute something new to GitHub!</div>
+        <button onclick="updateDate()">Update Date</button>
+    </div>
+
+    <script>
+        // Function to display the current date
+        function updateDate() {
+            const date = new Date();
+            const formattedDate = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+            document.getElementById('dateDisplay').textContent = `Today's Date: ${formattedDate}`;
+        }
+
+        // Initialize with current date
+        updateDate();
+    </script>
+</body>
+</html>
