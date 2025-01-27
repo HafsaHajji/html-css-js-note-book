@@ -2,6 +2,7 @@
 ---------------------------
 
 #WAA MAXAY HTML
+----------------
 
 HTML (HyperText Markup Language) iyo CSS (Cascading Style Sheets) waa labada farsamo ee ugu muhiimsan ee loogu talagalay horumarinta webka. Waxay si wadajir ah u shaqeeyaan si loo abuuro bogag web ah oo shaqeynaya oo muuqaal wanaagsan leh. Hoos waxaa ku jira aragti guud oo ku saabsan labadooda:
 
@@ -13,4 +14,12 @@ Waxay siisaa qaab-dhismeedka aasaasiga ah ee websaydhka.
 Waxaa loo adeegsadaa in lagu daro nuxurka sida qoraalka, sawirrada, iyo isku xirayaasha (links).
 
 # WAA MAXAY CSS
+-----------------
+
+CSS (Cascading Style Sheets):
+CSS waa farsamo loo adeegsado in lagu qurxiyo bogagga webka. Waxay ka go'doonsan tahay HTML waxayna ku darsantaa muuqaal ahaan sida midabka, qaabka qoraalka, iyo meelaha loo kala saaro walxaha.
+
+Asalka:
+Waxaa loo isticmaalaa in lagu go'aamiyo sida wax loo habeeyo.
+Waxay taageertaa habeynta midabada, qaababka, margin-ka, spacing, iyo waxyaabo kale oo muuqaal ah.
 
