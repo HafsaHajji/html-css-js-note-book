@@ -9,3 +9,62 @@ HTML (HyperText Markup Language) iyo CSS (Cascading Style Sheets) waa labada far
 HTML (HyperText Markup Language):
 HTML waa luqadda loo isticmaalo in lagu dhiso qaabka iyo qaab-dhismeedka bogagga webka. Waxay ku shaqeysaa iyada oo loo marayo tags iyo elements.
 
+Asalka:
+Waxay siisaa qaab-dhismeedka aasaasiga ah ee websaydhka.
+Waxaa loo adeegsadaa in lagu daro nuxurka sida qoraalka, sawirrada, iyo isku xirayaasha (links).
+
+--Tusaale HTML ah:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple HTML page.</p>
+    </header>
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+</body>
+</html>
+
+
+# WAA MAXAY CSS
+-----------------
+
+CSS (Cascading Style Sheets):
+CSS waa farsamo loo adeegsado in lagu qurxiyo bogagga webka. Waxay ka go'doonsan tahay HTML waxayna ku darsantaa muuqaal ahaan sida midabka, qaabka qoraalka, iyo meelaha loo kala saaro walxaha.
+
+Asalka:
+Waxaa loo isticmaalaa in lagu go'aamiyo sida wax loo habeeyo.
+Waxay taageertaa habeynta midabada, qaababka, margin-ka, spacing, iyo waxyaabo kale oo muuqaal ah.
+
+--Tusaale css ah:
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
+header {
+    background-color: #5cb85c;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
