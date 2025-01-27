@@ -14,6 +14,7 @@ Waxay siisaa qaab-dhismeedka aasaasiga ah ee websaydhka.
 Waxaa loo adeegsadaa in lagu daro nuxurka sida qoraalka, sawirrada, iyo isku xirayaasha (links).
 
 --Tusaale HTML ah:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,4 +43,6 @@ CSS waa farsamo loo adeegsado in lagu qurxiyo bogagga webka. Waxay ka go'doonsan
 Asalka:
 Waxaa loo isticmaalaa in lagu go'aamiyo sida wax loo habeeyo.
 Waxay taageertaa habeynta midabada, qaababka, margin-ka, spacing, iyo waxyaabo kale oo muuqaal ah.
+
+--Tusaale CSS ah:
 
